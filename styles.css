@@ -1,18 +1,87 @@
+/* Homepage */
+
+.image-container {
+    padding: 24px;
+    text-align: center;
+}
+
+
+.title-container {
+    text-align: center;
+    padding: 23px;
+    color:#04425b;
+    font-size: 23px;
+}
+
+
+.subtext {
+    text-align: center;
+    font-size: 22px;
+}
+.profits {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin:0px auto;
+}
+
+.profit-1 {
+    background: #c8e4faad;
+    padding: 20px 70px;
+    border-radius: 10px;
+    font-size: 24px; 
+    color: rgb(2, 81, 81);
+    text-align: center;
+}
+
+.profit-2 {
+    background: #c8e4faad;
+    padding: 20px 70px;
+    border-radius: 10px;
+    font-size: 24px; 
+    color: rgb(2, 81, 81);
+    text-align: center;   
+}
+.profit-3 {
+    background: #c8e4faad;
+    padding: 20px 120px;
+    border-radius: 10px;
+    font-size: 24px; 
+    color: rgb(2, 81, 81);
+    text-align: center;  
+}
+
+.upcomingCbtn{
+    background-color: cadetblue;
+    color: white;
+    padding: 16px 20px;
+    margin: 5cap;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.upcomingCbtn:hover{
+    opacity: 1;
+}
+
 /* register and login  */
 
 
 .forms-container{
     display: flex;
-justify-content: space-around;
-width: 80%;
-margin:0px auto;
+    justify-content: space-around;
+    width: 80%;
+    margin:0px auto;
 }
 
 form{
-    padding: 16px;
+    width: 100%;
 }
  
-.register-container, .login-container {
+.register-container, .login-container{
     padding: 16px;
 }
 
@@ -26,18 +95,17 @@ input [type=email]{
     display: inline-block;
     border: none;
     background: aliceblue;
-    border-radius: 5px;
 }
 
 
 input [type=text]:focus,
 input [type=password]:focus,
 input [type=email]:focus {
-    background-color: beige;
-    margin-bottom: 25pxs;
+    background-color: rgb(243, 243, 189);
+    margin-bottom: 25px;
 }
 
-hr {
+hr{
     border: 1px solid darkcyan;
     outline: none;
 }
@@ -51,7 +119,7 @@ hr {
     border: none;
     cursor: pointer;
     width: 100%;
-    opacity: 0.8;
+    opacity: 0,8;
     border-radius: 5px;
 }
 
