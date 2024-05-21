@@ -203,3 +203,20 @@ nav > ul > li > a {
 .courceBtn:hover{
     opacity: 1;
 }
+
+
+/* Contacts page */
+
+.contacts-title{
+    text-align: center;
+    padding: 20px;
+    color: #04425b;
+    font-size: 34px; 
+}
+
+.contacts-wrapper{
+    text-align: center;
+    padding: 20px;
+    color: #02222f;
+    font-size: 22px;
+}
