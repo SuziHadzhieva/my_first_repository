@@ -16,10 +16,7 @@ form{
     padding: 16px;
 }
 
-
-input [type=text],
-input [type=password],
-input [type=email]{
+#email, #psw, #psw-repeat{
     width: 92%;
     padding: 15px;
     margin: 5px 0px 22px 0px;
@@ -29,11 +26,24 @@ input [type=email]{
 }
 
 
+/* input [type=text],
+input [type=password],
+input [type=email]{
+    width: 92%;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    display: inline-block;
+    border: none;
+    background: aliceblue;
+} */
+
+
 input [type=text]:focus,
 input [type=password]:focus,
 input [type=email]:focus {
-    background-color: rgb(243, 243, 189);
+    background-color: rgb(156, 176, 175);
     margin-bottom: 25px;
+    outline: none;
 }
 
 hr{
@@ -67,7 +77,10 @@ hr{
 }
 
 .logo-wrapper {
-    width: 200px;
+    width: 50px;
+    display: flex;
+    justify-content: end;
+    padding-right: 25px;
 }
 
 .logo {
@@ -115,7 +128,7 @@ nav > ul > li > a {
 .profits {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
     margin:0px auto;
 }
 
@@ -145,17 +158,26 @@ nav > ul > li > a {
     text-align: center;  
 }
 
+
+.upcomingCbtn-wrapper{
+    width: 100%;
+    display:flex;
+}
+
 .upcomingCbtn{
     background-color: cadetblue;
     color: white;
-    padding: 16px 20px;
-    margin: 5cap;
+    padding: 20px 25px;
+    margin: 50px auto;
     border: none;
     cursor: pointer;
-    width: 15%;
+    width: 25%;
     border-radius: 10px;
     opacity: 0.8;
+    text-decoration: none; 
+    font-size: 18px; 
 }
+
 
 .upcomingCbtn:hover{
     opacity: 1;
@@ -198,12 +220,17 @@ nav > ul > li > a {
         cursor: pointer;
         border-radius: 10px;
         opacity: 0.8;
+        font-size: 17px;
 }
 
 .courceBtn:hover{
     opacity: 1;
 }
 
+.SignIn, .SignIn2, .SignIn3{
+    display: flex;
+    justify-content: center;
+}
 
 /* Contacts page */
 
